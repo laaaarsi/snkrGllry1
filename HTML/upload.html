@@ -47,140 +47,117 @@
 
 
 <section>
-
     <form>
-
-        <div class="container">
-
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
-
-
-                <label for="path">Path</label>
-                <input id="path" type="text" value="Path">
-                <button type="button">Add</button>
-
-                <label for="comment">Brand: </label>
-                <input type="text" id="comment">
-
-                <label for="model">Model: </label>
-                <input type="text" id="model">
-
-                <label for="cw">CW: </label>
-                <input type="text" id="cw">
-
-                <label for="year">Year:</label>
-                <input type="text" id="year">
-
-                <label for="style">Styles:</label>
-                <select name="styles" id="style">
-                    <option value="other">Other</option>
-                    <option value="running">Running</option>
-                    <option value="basketball">Basketball</option>
-                    <option value="retro">Retro</option>
-                    <option value="collab">Collab</option>
-                    <option value="vegan">Vegan</option>
-                    <option value="tennis">Tennis</option>
-                    <option value="vintage">Vintage</option>
-                </select>
-
-                <label for="material">Materials:</label>
-                <select name="material" id="material">
-                    <option value="other">Other</option>
-                    <option value="suede">Suede</option>
-                    <option value="mesh">Mesh</option>
-                    <option value="leather">Leather</option>
-                    <option value="synthetic">Synthetic</option>
-                    <option value="knit">Knit</option>
-                    <option value="vintage">Vintage</option>
-                </select>
-
-                <label for="shape">Shape:</label>
-                <select id="shape" name="shape">
-                    <option value="other">Other</option>
-                    <option value="low">Low</option>
-                    <option value="mid">Mid</option>
-                    <option value="high">High</option>
-                </select>
-
-                <label for="description">Description:</label>
-                <textarea id="description" cols="10" rows="5"></textarea>
-
-
-                <input type="submit" value="Upload">
-            </div>
+        <div class="form-group">
+            <label for="loginUsername">Username</label>
+            <input type="text" class="form-control" id="loginUsername"
+                   placeholder="Enter Username">
         </div>
-    </form>
 
+        <div class="form-group">
+            <label for="loginPassword">Password</label>
+            <input type="password" class="form-control" id="loginPassword"
+                   placeholder="Password">
+        </div>
+        <a href="index.html" class="btn btn-primary" role="button">Login</a>
+        <div class="form-group">
+            <label for="registerUsername">Username</label>
+            <input type="text" class="form-control" id="registerUsername"
+                   placeholder="Enter Username">
+        </div>
+        <div class="form-group">
+            <label for="registerEmail">Email address</label>
+            <input type="email" class="form-control" id="registerEmail"
+                   placeholder="Enter email">
+        </div>
+        <div class="form-group">
+            <label for="registerPassword">Password</label>
+            <input type="password" class="form-control" id="registerPassword"
+                   placeholder="Password">
+        </div>
+
+        <a href="index.html" class="btn btn-primary" role="button">Register</a>
+    </form>
 </section>
 
 <section>
-    <form>
-        <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-        </div>
-        <div class="form-group">
-            <label for="exampleSelect1">Example select</label>
-            <select class="form-control" id="exampleSelect1">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleSelect2">Example multiple select</label>
-            <select multiple class="form-control" id="exampleSelect2">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-            </select>
-        </div>
-        <div class="form-group">
-            <label for="exampleTextarea">Example textarea</label>
-            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-        </div>
 
-        <fieldset class="form-group">
-            <legend>Radio buttons</legend>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                    Option one is this and that&mdash;be sure to include why it's great
-                </label>
-            </div>
-            <div class="form-check">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
-                    Option two can be something else and selecting it will deselect option one
-                </label>
-            </div>
-            <div class="form-check disabled">
-                <label class="form-check-label">
-                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
-                    Option three is disabled
-                </label>
-            </div>
-        </fieldset>
-        <div class="form-check">
-            <label class="form-check-label">
-                <input type="checkbox" class="form-check-input">
-                Check me out
-            </label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+
+
+                    <form>
+                        <div class="form-group">
+                            <label for="brandSelect">Brand</label>
+                            <select class="form-control" id="brandSelect">
+                                <option>Nike</option>
+                                <option>Adidas</option>
+                                <option>Puma</option>
+                                <option>Asics</option>
+                                <option>Reebok</option>
+                                <option>Saucony</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="colorSelect">Color</label>
+                            <select class="form-control" id="colorSelect">
+                                <option>Black</option>
+                                <option>White</option>
+                                <option>Red</option>
+                                <option>Yellow</option>
+                                <option>Orange</option>
+                                <option>Brown</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="styleSelect">Style</label>
+                            <select class="form-control" id="styleSelect">
+                                <option>Running</option>
+                                <option>Basketball</option>
+                                <option>Tennis</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="materialSelect">Style</label>
+                            <select class="form-control" id="materialSelect">
+                                <option>Running</option>
+                                <option>Basketball</option>
+                                <option>Tennis</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="shapeSelect">Style</label>
+                            <select class="form-control" id="shapeSelect">
+                                <option>this</option>
+                                <option>that</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="yearSelect">Style</label>
+                            <select class="form-control" id="yearSelect">
+                                <option>2016</option>
+                                <option>2015</option>
+                                <option>2014</option>
+                                <option>and so on</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="descriptionTextarea">Description</label>
+                            <textarea class="form-control" id="descriptionTextarea"
+                                      rows="3"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputFile">File input</label>
+                            <input type="file" class="form-control-file" id="exampleInputFile">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
 
 </section>
-
 
 <footer>
     <div class="navbar navbar-default nav-links navbar-fixed-bottom">
