@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snkrGllry</title>
+
+
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Logo</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contest.html">Contest</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <h1>snkrGllry</h1>
+</header>
+
+
+<section>
+
+    <form>
+
+        <div class="container">
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 thumb">
+
+
+                <label for="path">Path</label>
+                <input id="path" type="text" value="Path">
+                <button type="button">Add</button>
+
+                <label for="comment">Brand: </label>
+                <input type="text" id="comment">
+
+                <label for="model">Model: </label>
+                <input type="text" id="model">
+
+                <label for="cw">CW: </label>
+                <input type="text" id="cw">
+
+                <label for="year">Year:</label>
+                <input type="text" id="year">
+
+                <label for="style">Styles:</label>
+                <select name="styles" id="style">
+                    <option value="other">Other</option>
+                    <option value="running">Running</option>
+                    <option value="basketball">Basketball</option>
+                    <option value="retro">Retro</option>
+                    <option value="collab">Collab</option>
+                    <option value="vegan">Vegan</option>
+                    <option value="tennis">Tennis</option>
+                    <option value="vintage">Vintage</option>
+                </select>
+
+                <label for="material">Materials:</label>
+                <select name="material" id="material">
+                    <option value="other">Other</option>
+                    <option value="suede">Suede</option>
+                    <option value="mesh">Mesh</option>
+                    <option value="leather">Leather</option>
+                    <option value="synthetic">Synthetic</option>
+                    <option value="knit">Knit</option>
+                    <option value="vintage">Vintage</option>
+                </select>
+
+                <label for="shape">Shape:</label>
+                <select id="shape" name="shape">
+                    <option value="other">Other</option>
+                    <option value="low">Low</option>
+                    <option value="mid">Mid</option>
+                    <option value="high">High</option>
+                </select>
+
+                <label for="description">Description:</label>
+                <textarea id="description" cols="10" rows="5"></textarea>
+
+
+                <input type="submit" value="Upload">
+            </div>
+        </div>
+    </form>
+
+</section>
+
+<section>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group">
+            <label for="exampleSelect1">Example select</label>
+            <select class="form-control" id="exampleSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleSelect2">Example multiple select</label>
+            <select multiple class="form-control" id="exampleSelect2">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleTextarea">Example textarea</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputFile">File input</label>
+            <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+            <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+        </div>
+        <fieldset class="form-group">
+            <legend>Radio buttons</legend>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                    Option one is this and that&mdash;be sure to include why it's great
+                </label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                    Option two can be something else and selecting it will deselect option one
+                </label>
+            </div>
+            <div class="form-check disabled">
+                <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                    Option three is disabled
+                </label>
+            </div>
+        </fieldset>
+        <div class="form-check">
+            <label class="form-check-label">
+                <input type="checkbox" class="form-check-input">
+                Check me out
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+</section>
+
+
+<footer>
+    <a href="contact.html">Contact</a>
+    <a href="impressum.html">Impressum</a>
+</footer>
+
+
+</body>
