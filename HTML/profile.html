@@ -49,47 +49,67 @@
 
 
 <section>
-    <div>
-        <figure>
-            <img src="../img/IMG_5109.JPG" height="200" width="800">
-            <figcaption>Titelbild</figcaption>
-        </figure>
+    <div class="container">
+        <div class="row">
+            <div>
+                <figure>
+                    <div class="col-xs-12">
+                        <a href="viewPicByClick.html">
+                            <img class="img-responsive" src="../img/IMG_5109.JPG" width="800" height="120">
+                        </a>
+
+                        <figcaption>Titelbild</figcaption>
+                    </div>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-4">
+                <figure>
+                    <img class="image-responsive" src="../img/profilPic.jpg" height="130" width="130"/>
+                    <figcaption>
+                        Profilbild
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-xs-12 col-sm-8">
+                <label for="username">Username: </label>
+                <span id="username">MaxMuster</span><br>
+
+                <label for="lastLogin">Registred since: </label>
+                <span id="lastLogin">12.12.12</span><br>
+
+                <label for="location">Location: </label>
+                <span id="location">Heimhausen</span><br>
+
+                <label for="instagram">Instagram: </label>
+                <span id="instagram">instagramProfilname</span><br>
+
+                <label for="likes">Total likes: </label>
+                <span id="likes">1000</span>
+            </div>
+
+        </div>
     </div>
 
-    <div>
-        <figure>
-            <img src="../img/profilPic.jpg" height="130" width="130"/>
-            <figcaption>
-                Profilbild
-            </figcaption>
-        </figure>
-    </div>
-
-    <div>
-        <label for="username">Username: </label>
-        <span id="username">MaxMuster</span><br>
-
-        <label for="lastLogin">Registred since: </label>
-        <span id="lastLogin">12.12.12</span><br>
-
-        <label for="location">Location: </label>
-        <span id="location">Heimhausen</span><br>
-
-        <label for="instagram">Instagram: </label>
-        <span id="instagram">instagramProfilname</span><br>
-
-        <label for="likes">Total likes: </label>
-        <span id="likes">1000</span>
-    </div>
 
     <article>
         <h2>About me</h2>
 
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
-            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+            labore et
+            dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+            rebum. Stet
+            clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+            amet,
+            consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+            aliquyam erat,
+            sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+            gubergren, no
             sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
     </article>
 
@@ -196,8 +216,16 @@
     </div>
 </section>
 <footer>
-    <a href="contact.html">Contact</a>
-    <a href="impressum.html">Impressum</a>
+
+    <div class="navbar navbar-default nav-links navbar-fixed-bottom">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+
+            </ul>
+        </div>
+    </div>
 </footer>
 
 
