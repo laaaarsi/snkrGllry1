@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a177ffdd-77a3-4303-bd96-7c27fc79fb9e" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/Zwischenablage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HTML/prototype.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/about.html" afterPath="$PROJECT_DIR$/HTML/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/contact.html" afterPath="$PROJECT_DIR$/HTML/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/contest.html" afterPath="$PROJECT_DIR$/HTML/contest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/impressum.html" afterPath="$PROJECT_DIR$/HTML/impressum.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/index.html" afterPath="$PROJECT_DIR$/HTML/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/login.html" afterPath="$PROJECT_DIR$/HTML/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/news.html" afterPath="$PROJECT_DIR$/HTML/news.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/profile.html" afterPath="$PROJECT_DIR$/HTML/profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/upload.html" afterPath="$PROJECT_DIR$/HTML/upload.html" />
     </list>
     <ignored path="snkrGllry1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -340,7 +329,7 @@
       <option name="presentableId" value="Default" />
       <updated>1478527221076</updated>
       <workItem from="1478527222274" duration="51000" />
-      <workItem from="1478601415976" duration="14660000" />
+      <workItem from="1478601415976" duration="14675000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1478605926424</created>
@@ -363,11 +352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478607090664</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Test">
+      <created>1478616223241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1478616223241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14711000" />
+    <option name="totallyTimeSpent" value="14726000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
