@@ -1,9 +1,22 @@
 <!DOCTYPE HTML>
 
 <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>snkrGllry</title>
+
+
+    <title>snkrGllry - Home</title>
+
+    <link rel="stylesheet" type="text/css" href="../CSS/mainStylesheet.css">
 
 
 </head>
@@ -19,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="index.html">Logo</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -37,43 +50,76 @@
 </header>
 
 
-
-
 <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <figure>
+                    <img class="img-responsive" src="../img/IMG_5109.jpg">
+                </figure>
+                <div>
+                    <div class="likeComment">
+                        <img class="img-responsive" src="../img/heartLogo.png" alt="" width="30" height="30">
+                    </div>
+                    <div class="likeComment">
+                        <img class="img-responsive" src="../img/sprechblase.png" alt="" width="35" height="35">
+                    </div>
+                    <div class="likeComment">
+                        <p>123 Likes</p>
+                    </div>
+                </div>
+            </div>
 
-    <figure>
-        <img src="/img/IMG_5109.jpg" width="600" height="400">
-        <figcaption>Bild nach anklicken in Groß</figcaption>
-    </figure>
+            <div class="col-xs-12 col-lg-3">
 
-    <label for="username">Username: </label>
-    <span id="username">MaxMuster</span><br>
-    <label for="brand">Brand: </label>
-    <span id="brand">Asics</span><br>
-    <label for="name">Name: </label>
-    <span id="name">Ronnie Fieg Cove</span><br>
-    <label for="model">Model: </label>
-    <span id="model">Gel Lyte V</span><br>
-    <label for="year">Year: </label>
-    <span id="year">2013</span><br>
-    <label for="color">Color: </label>
-    <span id="color">Blue</span><br>
-    <label for="description">Description: </label>
-    <span id="description">Lorem ipsum</span>
+                <label for="username">Username: </label>
+                <span id="username">MaxMuster</span><br>
+                <label for="brand">Brand: </label>
+                <span id="brand">Asics</span><br>
+                <label for="name">Name: </label>
+                <span id="name">Ronnie Fieg Cove</span><br>
+                <label for="model">Model: </label>
+                <span id="model">Gel Lyte V</span><br>
+                <label for="year">Year: </label>
+                <span id="year">2013</span><br>
+                <label for="color">Color: </label>
+                <span id="color">Blue</span><br>
+                <label for="description">Description: </label>
+                <span id="description">Lorem ipsum</span>
+            </div>
 
-    <form>
-        <button type="button">Like-Button</button>
-        <label for="comment">Comment:</label>
-        <textarea id="comment" name="message" cols="40" rows="7"></textarea>
-        <input type="submit" value="Post">
-    </form>
+            <div class="col-xs-12 col-lg-9">
+                <form>
 
+                    <div class="form-group">
+                        <label for="descriptionTextarea">Comment:</label>
+                        <textarea class="form-control" id="descriptionTextarea"
+                                  rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Post</button>
+
+
+
+                </form>
+            </div>
+
+        </div>
+    </div>
 </section>
 
 
 <footer>
-    <a href="contact.html">Contact</a>
-    <a href="impressum.html">Impressum</a>
+    <!--navbar-fixed-bottom-->
+
+    <div class="navbar navbar-default nav-links">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="impressum.html">Impressum</a></li>
+
+            </ul>
+        </div>
+    </div>
 </footer>
 
 

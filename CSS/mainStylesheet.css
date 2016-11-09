@@ -1,3 +1,31 @@
 .likeComment{
     float:left;
 }
+
+
+
+
+
+.carousel {
+
+    margin-top: 20px;
+}
+
+.carousel .item img {
+    margin: 0 auto; /* Align slide image horizontally center */
+}
+
+
+/*ROW CENTER*/
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}

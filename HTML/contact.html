@@ -1,9 +1,22 @@
 <!DOCTYPE HTML>
 
 <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>snkrGllry</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/mainStylesheet.css">
+
+
+    <title>snkrGllry - Home</title>
+
 
 </head>
 
@@ -18,7 +31,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="index.html">Logo</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -36,29 +49,65 @@
 </header>
 
 
-
 <section>
-    <div>
-        <h2>Contact Details</h2>
-        <p>Lars Schweikardt</p>
-        <p>Alemannenstrasse 11</p>
-        <p>78467 Konstanz</p>
-        <p>Manuel Müller</p>
-        <p>Schottenstrasse 71b</p>
-        <p>78462 Konstanz</p>
-    </div>
+    <form>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <h2>Contact Details</h2>
+                    </div>
+                    <div class="form-group">
+                        <p><b>Lars Schweikardt</b></p>
+                        <p>Alemannenstrasse 11</p>
+                        <p>78467 Konstanz</p>
+                        <a href="mailto:"schweikardt-lars@hotmail.de">E-mail me</a>
+                        <br>
+                        <br>
+                        <p><b>Manuel Müller</b></p>
+                        <p>Schottenstrasse 71B</p>
+                        <p>78462 Konstanz</p>
+                        <a href="mailto:"maschmusemail@email.de">E-mail me</a>
 
-    <div>
-        <h2>Contact fomular</h2>
-        <form>
-            <label for="email">Email:</label>
-            <input type="text" id="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" cols="40" rows="7"></textarea>
-            <input type="submit" value="Send">
-        </form>
-    </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-6 col-xs-12 ">
+                    <h2>Contact Formular</h2>
+                    <div class="form-group">
+                        <label for="username">Name: </label>
+                        <input type="text" id="username">
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 col-sm-6 col-xs-12 ">
+                    <div class="form-group">
+                        <label for="useremail">E-Mail: </label>
+                        <input type="email" id="useremail">
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 col-xs-12 ">
+                    <div class="form-group">
+                        <label for="descriptionTextarea">Your message:</label>
+                        <textarea class="form-control" id="descriptionTextarea"
+                                  rows="3"></textarea>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 ">
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
 </section>
+
 
 <footer>
 

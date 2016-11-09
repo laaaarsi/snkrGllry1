@@ -20,18 +20,7 @@
 
     <link rel="stylesheet" type="text/css" href="../CSS/mainStylesheet.css">
 
-    <style type="text/css">
-        .carousel {
 
-            margin-top: 20px;
-        }
-
-        .carousel .item img {
-            margin: 0 auto; /* Align slide image horizontally center */
-        }
-
-
-    </style>
 
 
 </head>
@@ -55,7 +44,7 @@
                     <li><a href="contest.html">Contest</a></li>
                     <li><a href="news.html">News</a></li>
                     <li><a href="about.html">About</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     <li><a href="profile.html">Profile</a></li>
                 </ul>
             </div>
@@ -67,7 +56,7 @@
 
 <section>
 
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -120,6 +109,8 @@
             </div>
             <div class="collapse navbar-collapse" id="filterNavbar">
                 <ul class="nav navbar-nav navbar-right">
+
+
                     <li><!-- Trigger the modal with a button -->
 
 
@@ -212,13 +203,10 @@
                                                 <input type="file" class="form-control-file" id="exampleInputFile">
                                             </div>
                                             <button type="submit" class="btn btn-primary">Submit</button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                                         </form>
 
 
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close
-                                        </button>
                                     </div>
 
                                 </div>
@@ -228,7 +216,26 @@
                     <li><a href="#brand">Brand</a></li>
                     <li><a href="#model">Model</a></li>
                     <li><a href="#color">Color</a></li>
-                    <li><a href="#other">Other</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Other
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Date ascending</a></li>
+                            <li><a href="#">Date descending</a></li>
+                            <li><a href="#">Likes ascending</a></li>
+                            <li><a href="#">Likes descending</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Order By
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Date ascending</a></li>
+                            <li><a href="#">Date descending</a></li>
+                            <li><a href="#">Likes ascending</a></li>
+                            <li><a href="#">Likes descending</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -236,7 +243,7 @@
 </section>
 
 <section>
-    <div class="container-fluid">
+    <div class="container">
 
         <div class="row">
 
