@@ -3,8 +3,12 @@
 }
 
 
+body{ padding-top: 50px}
+
+h1{ text-align: center}
 
 
+/*Carousel*/
 
 .carousel {
 
@@ -14,6 +18,9 @@
 .carousel .item img {
     margin: 0 auto; /* Align slide image horizontally center */
 }
+
+
+
 
 
 /*ROW CENTER*/
