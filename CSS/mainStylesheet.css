@@ -1,4 +1,10 @@
 /*------------------------------------------------------------------------------------*/
+body{
+    background-color: #a7e5de;
+    padding-top: 50px;
+    font-family: "Share Tech Mono";
+}
+
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Unica One";
