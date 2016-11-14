@@ -25,14 +25,15 @@
 
 <header>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+
+        <div  class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Logo</a>
+                <a class="navbar-brand" href="index.html">Logo</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
@@ -46,64 +47,83 @@
             </div>
         </div>
     </nav>
-    <h1>snkrGllry</h1>
+    <div id="caption">
+        <h1>snkrGllry</h1>
+    </div>
 </header>
 
 
 <section>
 
+    <div class="container">
+        <div class="row">
+            <div class="loginBox">
+                <form>
+                    <h2>Login</h2>
+                    <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                        <label for="loginUsername">Username</label>
+                        <input type="text" class="form-control" id="loginUsername" placeholder="Enter Username">
+                    </div>
 
-    <h2>Login</h2>
-    <form>
-        <div class="form-group">
-            <label for="loginUsername">Username</label>
-            <input type="text" class="form-control" id="loginUsername"
-                   placeholder="Enter Username">
+                    <div class="form-group col-lg-6 col-md-6 col-xs-12">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+                    </div>
+                    <div class="col-xs-12">
+                        <a href="index.html" class="btn " role="button">Login</a>
+                    </div>
+                </form>
+            </div>
         </div>
+    </div>
 
-        <div class="form-group">
-            <label for="loginPassword">Password</label>
-            <input type="password" class="form-control" id="loginPassword"
-                   placeholder="Password">
-        </div>
-        <a href="index.html" class="btn " role="button">Login</a>
 
-    </form>
-    <h2>Register a new Account</h2>
-    <form>
-        <div class="form-group">
-            <label for="registerUsername">Username</label>
-            <input type="text" class="form-control" id="registerUsername"
-                   placeholder="Enter Username">
-        </div>
-        <div class="form-group">
-            <label for="registerEmail">Email address</label>
-            <input type="email" class="form-control" id="registerEmail"
-                   placeholder="Enter email">
-        </div>
-        <div class="form-group">
-            <label for="registerPassword">Password</label>
-            <input type="password" class="form-control" id="registerPassword"
-                   placeholder="Password">
-        </div>
+    <div class="container">
+        <div class="row">
+            <div class="registerBox">
 
-        <a href="index.html" class="btn" role="button">Register</a>
-    </form>
+                <form>
+                    <h2>Register a new Account</h2>
+                    <div class="form-group col-lg-4 col-md-12 col-xs-12">
+                        <label for="registerUsername">Username</label>
+                        <input type="text" class="form-control" id="registerUsername" placeholder="Enter Username">
+                    </div>
+                    <div class="form-group col-lg-4 col-md-12 col-xs-12">
+                        <label for="registerEmail">Email address</label>
+                        <input type="email" class="form-control" id="registerEmail" placeholder="Enter email">
+                    </div>
+                    <div class="form-group col-lg-4 col-md-12 col-xs-12">
+                        <label for="registerPassword">Password</label>
+                        <input type="password" class="form-control" id="registerPassword" placeholder="Password">
+                    </div>
+
+                    <div class="col-xs-12">
+                        <a href="index.html" class="btn " role="button">Register</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 </section>
 
 
-<footer>
+<footer class="footer-bottom">
 
-    <div class="navbar navbar-default nav-links">
-        <div class="container">
-            <ul class="nav navbar-nav">
+
+
+
+    <div class="navbar navbar-default nav-links navbar-static-bottom">
+        <div id="footer-bottom" class="container">
+            <ul class="nav navbar-nav footer-nav">
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="impressum.html">Impressum</a></li>
 
             </ul>
         </div>
     </div>
+
+
 </footer>
 
 
