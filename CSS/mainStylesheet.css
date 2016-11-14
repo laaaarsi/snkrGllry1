@@ -83,3 +83,20 @@ html {
     background-color: #efefef;
     text-align: center;
 }
+
+
+
+.btn{
+
+    background: transparent;
+    color: #FFFFFF;
+    border: solid;
+
+    /* CSS Transition */
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -ms-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+
+}
