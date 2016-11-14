@@ -1,6 +1,6 @@
 
 body {
-    background-color: #d2d2d2;
+    background-color: #a7e5de;
     padding-top: 50px;
     font-family: "Share Tech Mono";
 
@@ -17,6 +17,10 @@ h1 {
     font-size: 100px;
 }
 
+#caption{
+    background-color: #5dc0d9;
+}
+
 /*------------------------------------------------------------------------------------*/
 
 
@@ -30,6 +34,7 @@ h1 {
     margin-bottom: 0px;
     font-family: 'Unica One';
     font-size: 18px;
+    background-color: #5dc0d9;
 
 }
 
