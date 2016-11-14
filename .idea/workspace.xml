@@ -24,6 +24,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -49,6 +50,10 @@
 =======
             <state relative-caret-position="407">
               <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+=======
+            <state relative-caret-position="332">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#4554#4561#0" expanded="true" />
 >>>>>>> origin/1.0
@@ -404,6 +409,7 @@
       <workItem from="1478783202102" duration="5841000" />
 =======
       <workItem from="1478767872277" duration="8620000" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -418,6 +424,9 @@
 =======
       <workItem from="1479125975113" duration="649000" />
 >>>>>>> origin/1.0
+=======
+      <workItem from="1479125975113" duration="890000" />
+>>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1478605926424</created>
@@ -479,6 +488,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -499,6 +509,9 @@
 =======
     <option name="totallyTimeSpent" value="33617000" />
 >>>>>>> origin/1.0
+=======
+    <option name="totallyTimeSpent" value="33858000" />
+>>>>>>> Stashed changes
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -1085,6 +1098,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         <state relative-caret-position="317">
           <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
@@ -1093,6 +1107,10 @@
         <state relative-caret-position="407">
           <caret line="41" column="34" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
 >>>>>>> origin/1.0
+=======
+        <state relative-caret-position="332">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#4554#4561#0" expanded="true" />
           </folding>

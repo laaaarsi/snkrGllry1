@@ -1,66 +1,74 @@
-body{
+
+body {
     background-color: #d2d2d2;
     padding-top: 50px;
+    font-family: "Share Tech Mono";
 
 }
 
+/*------------------------------------------------------------------------------------*/
 
-.likeComment{
-    float:left;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Unica One";
 }
 
+h1 {
+    text-align: center;
+    font-size: 100px;
+}
+
+/*------------------------------------------------------------------------------------*/
+
+
+.likeComment {
+    float: left;
+}
+
+/*------------------------------------------------------------------------------------*/
 
 .navbar {
     margin-bottom: 0px;
+    font-family: 'Unica One';
+    font-size: 18px;
 
 }
 
-
-body{ padding-top: 50px}
-
-h1{ text-align: center}
-
-
-/*Carousel*/
+/*------------------------------------------------------------------------------------*/
 
 .carousel {
 
     margin-top: 20px;
 }
 
+
+
 .carousel .item img {
     margin: 0 auto; /* Align slide image horizontally center */
 }
 
-
-
-
-
+/*------------------------------------------------------------------------------------*/
 
 /*ROW CENTER*/
 
 .row-centered {
-    text-align:center;
+    text-align: center;
 }
+
 .col-centered {
-    display:inline-block;
-    float:none;
+    display: inline-block;
+    float: none;
     /* reset the text-align */
-    text-align:left;
+    text-align: left;
     /* inline-block space fix */
-    margin-right:-4px;
+    margin-right: -4px;
 }
 
-
-
-
+/*------------------------------------------------------------------------------------*/
 
 html {
     height: 100%;
     box-sizing: border-box;
 }
-
-
 
 /**
  * Footer Styles
