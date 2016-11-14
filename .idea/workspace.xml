@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a177ffdd-77a3-4303-bd96-7c27fc79fb9e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML/index.html" afterPath="$PROJECT_DIR$/HTML/index.html" />
-    </list>
+    <list default="true" id="a177ffdd-77a3-4303-bd96-7c27fc79fb9e" name="Default" comment="" />
     <ignored path="snkrGllry1.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,6 +25,7 @@
         <entry file="file://$PROJECT_DIR$/HTML/index.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="136">
               <caret line="245" column="25" selection-start-line="245" selection-start-column="25" selection-end-line="245" selection-end-column="25" />
               <folding>
@@ -34,6 +33,10 @@
 =======
             <state relative-caret-position="362">
               <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+=======
+            <state relative-caret-position="482">
+              <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+>>>>>>> origin/1.0
               <folding>
                 <element signature="e#4557#4564#0" expanded="true" />
 >>>>>>> origin/1.0
@@ -386,7 +389,11 @@
       <workItem from="1478783202102" duration="5841000" />
 =======
       <workItem from="1478767872277" duration="8620000" />
+<<<<<<< HEAD
       <workItem from="1479125975113" duration="45000" />
+>>>>>>> origin/1.0
+=======
+      <workItem from="1479125975113" duration="274000" />
 >>>>>>> origin/1.0
     </task>
     <task id="LOCAL-00001" summary="Test">
@@ -443,6 +450,7 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="42568000" />
   </component>
   <component name="ToolWindowManager">
@@ -450,6 +458,9 @@
     <editor active="false" />
 =======
     <option name="totallyTimeSpent" value="33013000" />
+=======
+    <option name="totallyTimeSpent" value="33242000" />
+>>>>>>> origin/1.0
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="709" extended-state="6" />
@@ -988,12 +999,17 @@
     <entry file="file://$PROJECT_DIR$/CSS/mainStylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <state relative-caret-position="363">
           <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
 =======
         <state relative-caret-position="362">
           <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+=======
+        <state relative-caret-position="482">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+>>>>>>> origin/1.0
           <folding>
             <element signature="e#4557#4564#0" expanded="true" />
           </folding>
