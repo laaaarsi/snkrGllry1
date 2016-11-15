@@ -99,13 +99,20 @@ html {
 
     margin-top: 2%;
     margin-bottom: 2%;
+}
 
+.loginButtonBox{
+    
 }
 
 .contestBox{
 
     padding-bottom: 28px;
+}
 
+.newsBox{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*------------------------------------------------------------------------------------*/
