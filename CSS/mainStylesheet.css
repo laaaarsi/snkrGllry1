@@ -102,6 +102,12 @@ html {
 
 }
 
+.contestBox{
+
+    padding-bottom: 28px;
+
+}
+
 /*------------------------------------------------------------------------------------*/
 
 span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.glyphicon-thumbs-down{
