@@ -1,14 +1,17 @@
 /*------------------------------------------------------------------------------------*/
-body{
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
     background-color: #c7f0d5;
     padding-top: 50px;
     font-family: "Share Tech Mono";
     height: 100%;
-    color:#5d5d5d;
+    color: #5d5d5d;
 
 }
-
-
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Unica One";
@@ -21,25 +24,27 @@ h1 {
     margin-bottom: 0px;
 }
 
-.modal-content{
+.modal-content {
     background-color: #8ee4c3;
 }
 
-#caption{
+#caption {
     font-family: "Unica One";
-padding-bottom: 3px;
+    padding-bottom: 3px;
     background-color: #8ee4c3;
+    text-align: center;
 }
 
-#littleHeading{
+#littleHeading {
     font-size: larger;
 }
 
-/*------------------------------------------------------------------------------------*/
+/*Modal*/
 
-
-
-/*------------------------------------------------------------------------------------*/
+.modal-content {
+    background-color: #8ee4c3;
+}
+/*Navbar*/
 
 .navbar {
     margin-bottom: 0px;
@@ -49,14 +54,18 @@ padding-bottom: 3px;
 
 }
 
-/*------------------------------------------------------------------------------------*/
+.navbar-brand {
+    margin-top: 0px;
+    padding-top: 5px;
+
+}
+
+/*Carousel*/
 
 .carousel {
 
     margin-top: 20px;
 }
-
-
 
 .carousel .item img {
     margin: 0 auto; /* Align slide image horizontally center */
@@ -79,103 +88,87 @@ padding-bottom: 3px;
     margin-right: -4px;
 }
 
-/*------------------------------------------------------------------------------------*/
-
-html {
-    height: 100%;
-    box-sizing: border-box;
-}
-
-/*------------------------------------------------------------------------------------*/
-
-.navbar-brand{
-    margin-top: 0px;
-    padding-top: 5px;
-
-}
 
 
-.picBox{
+.picBox {
     margin-top: 0px;
     margin-bottom: 8px;
 }
 
-.likeAndCommentBox{
+.likeAndCommentBox {
 
     margin-top: 10px;
     text-align: center;
 }
 
-.rowBox{
+.rowBox {
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.carouselBox{
+.carouselBox {
     padding-top: 12px;
     padding-bottom: 28px;
 }
 
-.loginBox{
+.loginBox {
 
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-.loginButtonBox{
+.loginButtonBox {
     margin-top: 22px;
 }
 
-.loginSectionBox{
-    margin-bottom: 25px;
+.loginSectionBox {
+    margin-bottom: 20px;
 }
 
-.contestBox{
+.contestBox {
 
     padding-bottom: 28px;
 }
 
-.newsBox{
+.newsBox {
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-
-.PicByClickBox{
+.PicByClickBox {
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-
-.profileBox{
+.profileBox {
     margin-top: 28px;
     margin-bottom: 20px;
 }
 
-.aboutBox{
+.aboutBox {
     margin-right: 10%;
     margin-left: 10%;
+
 }
 
-.titelbild{
+.titelbild {
     margin-bottom: 20px;
 
 }
 
-.contestVerticalBox{
+.contestVerticalBox {
     margin-top: 40px;
 }
 
-@media screen and (max-width :990px){
-    .contestVerticalBox{
+@media screen and (max-width: 990px) {
+    .contestVerticalBox {
         margin-top: 0px;
     }
 }
 
-
 /*------------------------------------------------------------------------------------*/
 
-span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.glyphicon-thumbs-down{
+span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.glyphicon-thumbs-down {
     font-size: 2em;
 }
 
@@ -193,20 +186,18 @@ span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.gly
     text-align: center;
 }
 
-.footer-nav{
+.footer-nav {
     width: 100%;
     text-align: center;
 }
 
-.footer-nav>li{
+.footer-nav > li {
     float: none;
     display: inline-block;
 
 }
 
-
-
-.btn{
+.btn {
 
     background: transparent;
     color: #5d5d5d;
