@@ -22,6 +22,10 @@ h1 {
     margin-bottom: 0px;
 }
 
+.modal-content{
+    background-color: #a7e5de;
+}
+
 #caption{
     background-color: #5dc0d9;
 }
@@ -124,12 +128,12 @@ html {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
+
 .PicByClickBox{
     margin-bottom: 20px;
 }
 
-=======
+
 .profileBox{
     margin-top: 28px;
     margin-bottom: 20px;
@@ -145,7 +149,17 @@ html {
 
 }
 
->>>>>>> origin/1.0
+.contestVerticalBox{
+    margin-top: 40px;
+}
+
+@media screen and (max-width :990px){
+    .contestVerticalBox{
+        margin-top: 0px;
+    }
+}
+
+
 /*------------------------------------------------------------------------------------*/
 
 span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.glyphicon-thumbs-down{
