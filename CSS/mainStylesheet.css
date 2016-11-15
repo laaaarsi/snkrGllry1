@@ -38,13 +38,8 @@ h1 {
 #littleHeading {
     font-size: larger;
 }
-<<<<<<< HEAD
 
 /*Modal*/
-=======
-/*------------------------------------------------------------------------------------*/
-
->>>>>>> origin/1.0
 
 .modal-content {
     background-color: #8ee4c3;
@@ -171,15 +166,13 @@ h1 {
     }
 }
 
-/*------------------------------------------------------------------------------------*/
+/*Glyphicons*/
 
 span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.glyphicon-thumbs-down {
     font-size: 2em;
 }
 
-/**
- * Footer Styles
- */
+/*Footer Styles*/
 
 .footer {
     position: absolute;
@@ -201,6 +194,9 @@ span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.gly
     display: inline-block;
 
 }
+
+
+/*Button*/
 
 .btn {
 
