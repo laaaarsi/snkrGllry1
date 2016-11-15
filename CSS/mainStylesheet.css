@@ -107,7 +107,11 @@ html {
 }
 
 .loginButtonBox{
-    
+    margin-top: 22px;
+}
+
+.loginSectionBox{
+    margin-bottom: 25px;
 }
 
 .contestBox{
