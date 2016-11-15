@@ -124,6 +124,16 @@ html {
     margin-top: 20px;
 }
 
+.profileBox{
+    margin-top: 28px;
+    margin-bottom: 20px;
+}
+
+.titelbild{
+    margin-bottom: 20px;
+
+}
+
 /*------------------------------------------------------------------------------------*/
 
 span.glyphicon-comment, span.glyphicon-heart, span.glyphicon-thumbs-up, span.glyphicon-thumbs-down{
